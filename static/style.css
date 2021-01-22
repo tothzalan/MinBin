@@ -1,0 +1,24 @@
+body {
+    background-color: #000000;
+    color: #bc6ff1;
+    width: 80vw;
+    margin: 0 auto;
+    font-family: "Courier New";
+    font-size: 18px;
+}
+a {
+    color:#892cdc;
+    text-decoration: none;
+}
+main {
+    text-align: center;
+}
+main a {
+    padding: 20px;
+}
+form input, form textarea {
+    color: #8f8fa1;
+    width: 25vw;
+    margin: 10px 0 0 0;
+    padding: 10px;
+}

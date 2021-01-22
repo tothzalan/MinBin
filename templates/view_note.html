@@ -1,0 +1,9 @@
+<!doctype html>
+<link rel="stylesheet" href="{{ url_for('static', filename='/style.css') }}" />
+<title>note['name']</title>
+
+<h1>{{ note['name'] }}</h1>
+<p>
+    {{ note['text'] }}
+</p>
+<a href="/">back ➡️</a>

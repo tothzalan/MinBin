@@ -1,0 +1,12 @@
+<!doctype html>
+<link rel="stylesheet" href="{{ url_for('static', filename='/style.css') }}" />
+<title>Create note</title>
+
+<h1>Create a note:</h1>
+<form action="" method = "POST">
+    <input type="text" name="name" placeholder="Name of the paste" required="required" minlength="4" maxlength="64"/>
+    <br/>
+    <textarea rows="10" cols="80" name="text" placeholder="Value of the paste" required="required" minlength="2"></textarea>
+    <p><input type = "submit" value = "submit"/></p>
+</form>
+<a href="/">back ➡️</a>
